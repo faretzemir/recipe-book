@@ -8,7 +8,7 @@ type CategoryKeywords = {
 const categoryKeywords: CategoryKeywords = {
   'main': {  // Putting mains first for priority
     exactPhrases: ['fried rice', 'pad thai', 'stir fry', 'chili oil fried rice', 'chilli oil fried rice'],
-    keywords: ['chicken', 'beef', 'pork', 'fish', 'meat', 'steak', 'pasta', 'rice', 'potato', 'tofu', 'pad', 'curry', 'burger']
+    keywords: ['chicken', 'beef', 'pork', 'fish', 'meat', 'steak', 'pasta', 'rice', 'potato', 'tofu', 'pad', 'curry', 'burger', 'udon']
   },
   'sauce': {
     exactPhrases: ['chili oil', 'chilli oil', 'hot sauce', 'dipping sauce', 'oil sauce'],
