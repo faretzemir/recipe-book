@@ -12,8 +12,15 @@ export async function fetchRecipes(): Promise<Recipe[]> {
     files
       .filter((file: any) => file.name.endsWith('.txt'))
       .map(async (file: any) => {
-        const content = await fetch(`${GITHUB_RAW_URL}/${file.name}`).then(res => res.text());
+        let content = await fetch(`${GITHUB_RAW_URL}/${file.name}`).then(res => res.text());
         
+        // Remove the first line if it contains "Name="
+        content = content
+          .split('\n')
+          .filter(line => !line.toLowerCase().startsWith('name='))
+          .join('\n')
+          .trim(); // Trim any extra whitespace
+
         const title = file.name
           .replace('.txt', '')
           .replace(/[_-]/g, ' ')
@@ -23,7 +30,7 @@ export async function fetchRecipes(): Promise<Recipe[]> {
 
         return {
           title,
-          type: categorizeRecipe(content, title), // Pass both content and title
+          type: categorizeRecipe(content, title),
           content,
           fileName: file.name
         };
