@@ -19,7 +19,7 @@ const categoryKeywords: CategoryKeywords = {
     keywords: ['soup', 'broth', 'bouillon', 'chowder', 'bisque']
   },
   'dessert': {
-    exactPhrases: ['ice cream'],
+    exactPhrases: ['ice cream', 'churros'],
     keywords: ['cake', 'cookie', 'dessert', 'sweet', 'pie', 'chocolate', 'sugar', 'pudding']
   },
   'salad': {
