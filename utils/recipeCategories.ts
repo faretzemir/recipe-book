@@ -11,7 +11,7 @@ const categoryKeywords: CategoryKeywords = {
     keywords: ['chicken', 'beef', 'pork', 'fish', 'meat', 'steak', 'pasta', 'rice', 'potato', 'tofu', 'pad', 'curry', 'burger', 'udon']
   },
   'sauce': {
-    exactPhrases: ['chili oil', 'chilli oil', 'hot sauce', 'dipping sauce', 'oil sauce', 'syrup'],
+    exactPhrases: ['chili oil', 'chilli oil', 'hot sauce', 'dipping sauce', 'oil sauce', 'syrup', 'pasta sauce'],
     keywords: ['sauce', 'dressing', 'gravy', 'marinade', 'glaze']
   },
   'soup': {
