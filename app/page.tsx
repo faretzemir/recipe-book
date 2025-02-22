@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <div className="min-h-screen p-8">
       <h1 className="text-3xl font-bold mb-8 text-center text-white">
-        Faretz and Naddy's Online Recipe Book
+        Faretz and Naddy&apos;s Online Recipe Book
       </h1>
       
       {/* Search Bar */}
@@ -79,7 +79,7 @@ export default function Home() {
             </button>
             
             <h2 className="text-2xl font-semibold mb-6 text-black">
-              Search Results for "{searchTerm}"
+              Search Results for &apos;{searchTerm}&apos;
             </h2>
             
             {searchResults.length > 0 ? (
@@ -89,7 +89,7 @@ export default function Home() {
                 ))}
               </div>
             ) : (
-              <p className="text-center text-gray-600">No recipes found matching "{searchTerm}"</p>
+              <p className="text-center text-gray-600">No recipes found matching &apos;{searchTerm}&apos;</p>
             )}
           </div>
         ) : selectedCategory ? (
