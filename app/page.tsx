@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <div className="min-h-screen p-8">
       <h1 className="text-3xl font-bold mb-8 text-center text-white">
-        Faretz and Naddy's Online Recipe Book
+        Faretz and Naddy&apos;s Online Recipe Book
       </h1>
       
       <div className="max-w-6xl mx-auto">
