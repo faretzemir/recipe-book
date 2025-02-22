@@ -31,7 +31,7 @@ const categoryKeywords: CategoryKeywords = {
     keywords: ['breakfast', 'eggs', 'pancake', 'waffle', 'omelette', 'bacon']
   },
   'side': {
-    exactPhrases: ['topping', 'side dish', 'enoki'],
+    exactPhrases: ['topping', 'side dish', 'enoki', 'broccoli'],
     keywords: ['side', 'vegetable', 'potato', 'beans']
   },
   'appetizer': {
